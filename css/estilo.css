@@ -1,0 +1,111 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+main{
+  background-color: #E5C4D1;
+  height: 92.2vh;
+}
+.clear{
+  clear: both;
+}
+
+.content{
+  background-color: #F5C1A9;
+}
+
+#header{
+  position: relative;
+  padding: 10px;
+  height: 60px;
+  background-color: #89687D;
+}
+#nav{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translate(0,-50%);
+  }
+#nav #menu a {
+  text-decoration: none;
+}
+#nav #menu a li{
+  display: inline;
+  list-style: none;
+  font-size: 20px;
+  padding: 5px;
+  margin: 0 5px;
+  color: #FFF7EC  ;
+}
+#conteudo{
+  position: relative;
+  width: 95%;
+  height: 600px;
+  padding: 0px;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%,-50%);
+  content: initial;
+}
+#esquerda-texto{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0,-50%);
+  width: 35%;
+  padding: 20px;
+  text-align: justify;
+  content: normal;
+}
+#main-texto{
+  color: #000000;
+  font-size: 40px;
+  font-weight: bold;
+}
+#texto{
+  margin: 30px 0;
+  color: #000000;
+  font-size: 18px;
+}
+#ordem-div{
+  margin-top: 20px;
+  padding: 10px 0;
+}
+#botao{
+  padding: 10px 12px;
+  background: #89687D;
+  color: #fff;
+  text-decoration: none;
+  border-radius:4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#botao:hover{
+ background-color:#d6517c;
+ color: #FFF7EC;
+}
+
+#direita-conteudo{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0,-50%);
+  width: 48%;
+  padding: 5px;
+  background-image: url(../imagens/empoderamento.png);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  height: 400px;
+}
+
+#footer-text{
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #89687D;
+  color: #FFF7EC;
+}
+
